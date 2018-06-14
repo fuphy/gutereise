@@ -3,8 +3,8 @@
 import requests
 from bs4 import BeautifulSoup
 from time import time
-import pymysql
-import pymysql.cursors
+#import pymysql
+#import pymysql.cursors
 import sys
 import re
 from fake_useragent import UserAgent
@@ -24,7 +24,7 @@ print('Month: ', currentMonth)
 
 start_time = time()
 
-restListLink = "https://www.expedia.co.in/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A21%2F02%2F2018TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A27%2F02%2F2018TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in"
+restListLink = "https://www.expedia.co.in/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A21%2F06%2F2018TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A27%2F06%2F2018TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in"
 print(restListLink)
 ua1 = UserAgent()
 randomHeader = {'User-Agent':str(ua1.random)}
@@ -38,6 +38,7 @@ stringCom = parsed['content']
 airlineList = list()
 priceList = list()
 
+print(stringCom)
 for x in range(100):
     try:
         stringCom = stringCom.split(',"formattedRoundedPrice":"', 1)
@@ -63,6 +64,7 @@ for x in range(100):
 
 for i in range(len(airlineList)):
     print(airlineList[i])
+    print(priceList[i])
 end_time = time()
 time_taken = end_time - start_time
 
