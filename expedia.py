@@ -10,7 +10,9 @@ import re
 from fake_useragent import UserAgent
 import json
 from datetime import datetime
+import pandas as pd
 
+"""
 currentSecond= datetime.now().second
 currentMinute = datetime.now().minute
 currentHour = datetime.now().hour
@@ -21,6 +23,7 @@ currentYear = datetime.now().year
 
 print('Day: ', currentDay)
 print('Month: ', currentMonth)
+"""
 
 start_time = time()
 
@@ -33,11 +36,14 @@ soup = BeautifulSoup(page.content, 'html.parser')
 restNameList = len(soup.find_all('script', {'id': 'cachedResultsJson'}))
 priceJson = soup.find_all('script', {'id': 'cachedResultsJson'})[0].get_text()
 parsed = json.loads(priceJson)
-stringCom = parsed['content']
+dict_train = parsed['content']
+dict_train = json.loads(dict_train)
+#dict_train = stringCom.to_dict()
 
 airlineList = list()
 priceList = list()
 
+"""
 print(stringCom)
 for x in range(100):
     try:
@@ -65,6 +71,40 @@ for x in range(100):
 for i in range(len(airlineList)):
     print(airlineList[i])
     print(priceList[i])
+"""
+
+train = pd.DataFrame.from_dict(dict_train['legs'], orient='index').reset_index()
+
+finalDf = pd.DataFrame()
+
+finalDf['naturalKey'] = train['naturalKey']
+finalDf['price'] = train['price']
+finalDf['carrierSummary'] = train['carrierSummary']
+
+x = finalDf['carrierSummary'].to_dict()
+y = finalDf['price'].to_dict()
+
+aList = list()
+pList = list()
+
+for i in range(len(x)):
+    print(x[i]['airlineName'], ' available at ', y[i]['exactPrice'])
+    if(x[i]['airlineName'] == ''):
+        print('Skip')
+    else:
+        aList.append(x[i]['airlineName'])
+        pList.append(y[i]['exactPrice'])
+
+newDf = pd.DataFrame()
+
+newDf['airline'] = aList
+newDf['price'] = pList
+
+newDf = newDf[newDf['price'].isin(newDf.groupby('airline').min()['price'].values)]
+newDf = newDf.drop_duplicates(subset = ['airline', 'price'], keep = 'first')
+
+print(newDf)
+
 end_time = time()
 time_taken = end_time - start_time
 
