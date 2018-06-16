@@ -1,4 +1,4 @@
-from time import time
+from time import time, sleep
 import requests
 from datetime import datetime, timedelta
 import datetime
@@ -17,22 +17,21 @@ def date_splitter(dateToSplit):
     day = dateToSplit[1]
     return year, month, day
 
-#https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AM%C3%BCnchen%20(MUC)%2Cto%3AShanghai%2C%20China%20(SHA-Alle%20Flugh%C3%A4fen)%2Cdeparture%3A17%2F06%2F2018TANYT&leg2=from%3AShanghai%2C%20China%20(SHA-Alle%20Flugh%C3%A4fen)%2Cto%3AM%C3%BCnchen%20(MUC)%2Cdeparture%3A17%2F07%2F2018TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.de
 for i in range(1, 8):
     if(i == 1):
         d_date = str(datetime.date.today() + timedelta(days = 1))
         d_year, d_month, d_day = date_splitter(d_date)
         r_date = str(datetime.date.today() + timedelta(days = 31))
         r_year, r_month, r_day = date_splitter(r_date)
-        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AShanghai%2C China (SHA-Alle Flughäfen)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AShanghai%2C China (SHA-Alle Flughäfen)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.de'
+        #scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from:Munich,%20Germany%20(MUC),to:Chennai,%20India%20(MAA),departure:17/06/2018TANYT&leg2=from:Chennai,%20India%20(MAA),to:Munich,%20Germany%20(MUC),departure:17/07/2018TANYT&passengers=adults:1,children:0,seniors:0,infantinlap:Y&options=cabinclass:economy&mode=search&origref=www.expedia.de'
+        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in'
         print(scrapeLink)
-    """
     elif(i == 2):
         d_date = str(datetime.date.today() + timedelta(days = 3))
         d_year, d_month, d_day = date_splitter(d_date)
         r_date = str(datetime.date.today() + timedelta(days = 33))
         r_year, r_month, r_day = date_splitter(r_date)
-        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in'
+        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.de'
         print(scrapeLink)
     elif(i == 3):
         d_date = str(datetime.date.today() + timedelta(days = 7))
@@ -46,7 +45,7 @@ for i in range(1, 8):
         d_year, d_month, d_day = date_splitter(d_date)
         r_date = str(datetime.date.today() + timedelta(days = 45))
         r_year, r_month, r_day = date_splitter(r_date)
-        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in'
+        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.de'
         print(scrapeLink)
     elif(i == 5):
         d_date = str(datetime.date.today() + timedelta(days = 30))
@@ -60,7 +59,7 @@ for i in range(1, 8):
         d_year, d_month, d_day = date_splitter(d_date)
         r_date = str(datetime.date.today() + timedelta(days = 90))
         r_year, r_month, r_day = date_splitter(r_date)
-        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in'
+        scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.de'
         print(scrapeLink)
     elif(i == 7):
         d_date = str(datetime.date.today() + timedelta(days = 90))
@@ -69,7 +68,7 @@ for i in range(1, 8):
         r_year, r_month, r_day = date_splitter(r_date)
         scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in'
         print(scrapeLink)
-    """
+
     ua1 = UserAgent()
     randomHeader = {'User-Agent':str(ua1.random)}
     page = requests.get(scrapeLink, randomHeader)
@@ -78,14 +77,10 @@ for i in range(1, 8):
     parsed = json.loads(priceJson)
     skimData = parsed['content']
     skimData = json.loads(skimData)
-
-    airlineList = list()
-    priceList = list()
-
+    
     train = pd.DataFrame.from_dict(skimData['legs'], orient='index').reset_index()
 
     finalDf = pd.DataFrame()
-
     finalDf['naturalKey'] = train['naturalKey']
     finalDf['price'] = train['price']
     finalDf['carrierSummary'] = train['carrierSummary']
@@ -98,7 +93,7 @@ for i in range(1, 8):
 
     for i in range(len(x)):
         if(x[i]['airlineName'] == ''):
-            print('')
+            z = 0
         else:
             aList.append(x[i]['airlineName'])
             pList.append(y[i]['exactPrice'])
@@ -112,6 +107,8 @@ for i in range(1, 8):
     newDf = newDf.drop_duplicates(subset = ['airline', 'price'], keep = 'first')
 
     print(newDf)
+
+    sleep(10)
 
 
 end_time = time()
