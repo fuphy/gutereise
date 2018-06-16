@@ -23,7 +23,6 @@ for i in range(1, 8):
         d_year, d_month, d_day = date_splitter(d_date)
         r_date = str(datetime.date.today() + timedelta(days = 31))
         r_year, r_month, r_day = date_splitter(r_date)
-        #scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from:Munich,%20Germany%20(MUC),to:Chennai,%20India%20(MAA),departure:17/06/2018TANYT&leg2=from:Chennai,%20India%20(MAA),to:Munich,%20Germany%20(MUC),departure:17/07/2018TANYT&passengers=adults:1,children:0,seniors:0,infantinlap:Y&options=cabinclass:economy&mode=search&origref=www.expedia.de'
         scrapeLink = 'https://www.expedia.de/Flights-Search?trip=roundtrip&leg1=from%3AMunich%2C%20Germany%20(MUC)%2Cto%3AChennai%2C%20India%20(MAA)%2Cdeparture%3A' + d_day + '%2F' + d_month + '%2F' + d_year + 'TANYT&leg2=from%3AChennai%2C%20India%20(MAA)%2Cto%3AMunich%2C%20Germany%20(MUC)%2Cdeparture%3A' + r_day + '%2F' + r_month + '%2F' + r_year + 'TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&options=cabinclass%3Aeconomy&mode=search&origref=www.expedia.co.in'
         print(scrapeLink)
     elif(i == 2):
