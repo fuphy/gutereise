@@ -110,6 +110,14 @@ for i in range(1, 8):
     newDf['departDate'] = d_date
     newDf['returnDate'] = r_date
     newDf['dayInAdvance'] = dayInAdvance
+    newDf['departMonth'] = d_month
+    newDf['returnMonth'] = r_month
+    newDf['departMonth'] = newDf['departMonth'].map({'01': 'January', '02': 'February', '03': 'March', 
+                            '04': 'April', '05': 'May', '06': 'June', '07': 'July', '08': 'August', 
+                            '09': 'September', '10': 'October', '11': 'November', '12': 'December'})
+    newDf['returnMonth'] = newDf['returnMonth'].map({'01': 'January', '02': 'February', '03': 'March', 
+                            '04': 'April', '05': 'May', '06': 'June', '07': 'July', '08': 'August', 
+                            '09': 'September', '10': 'October', '11': 'November', '12': 'December'})
     newDf.drop(newDf.columns[[0, 1]], axis = 1, inplace = True)
     print(newDf)
     xlsDf = xlsDf.append(newDf, ignore_index = True)
