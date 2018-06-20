@@ -1,0 +1,12 @@
+1529517858294	geckodriver	INFO	geckodriver 0.21.0
+1529517858298	geckodriver	INFO	Listening on 127.0.0.1:58385
+1529517859354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zzZ2aUQ7NLLD"
+1529517864483	Marionette	INFO	Listening on port 33323
+1529517864491	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28263): dconf-WARNING **: 20:04:39.839: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Child 28263, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 28263, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 28186, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 28186, Gecko_IOThread] WARNING: pipe error (60): Connection reset by peer: file /build/firefox-m9FtQy/firefox-60.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
