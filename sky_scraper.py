@@ -2,10 +2,14 @@ from time import time, sleep
 from datetime import datetime, timedelta
 import datetime
 from bs4 import BeautifulSoup
-from selenium import webdriver
 from fake_useragent import UserAgent
 import pandas as pd
 from pandas import ExcelWriter
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
 
 start_time = time()
 
@@ -27,7 +31,7 @@ def price_extractor(otherStr):
     y = otherStr.split('Rs.</i>', 1)
     y = y[1].split(' </span', 1)
     priceVal = y[0].replace(',', '')
-    priceVal = round(float(priceVal) / 75, 2)
+    priceVal = round(float(priceVal) / 80, 2)
     return priceVal
 
 xlsDf = pd.DataFrame()
@@ -95,6 +99,14 @@ for i in range(1, 8):
     profile.set_preference('general.useragent.override', str(ua1.random))
     driver = webdriver.Firefox(profile)
     driver.get(scrapeLink)
+    delay = 30
+    while True:
+        try:
+            WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'clip-overflow')))
+            print('Page is ready!')
+            break 
+        except TimeoutException:
+            print('Loading took too much time!')
     html = driver.execute_script('return document.body.innerHTML')
     driver.close() 
 
@@ -128,7 +140,7 @@ for i in range(1, 8):
                             '09': 'September', '10': 'October', '11': 'November', '12': 'December'})
     print(newDf)
     xlsDf = xlsDf.append(newDf, ignore_index = True)
-    sleep(500)
+    sleep(60)
 
 c_date = str(datetime.date.today())
 c_year, c_month, c_day = date_splitter(c_date)
@@ -140,6 +152,6 @@ writer.save()
 
 end_time = time()
 
-total_time = end_time - start_time
+total_time = round(end_time - start_time, 2)
 
 print('Execution time was', total_time, 'seconds')
