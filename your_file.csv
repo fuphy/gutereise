@@ -1,0 +1,354 @@
+	event	date	location	mainEvent
+0	UGP 9 Ospina vs Fajardo	Saturday, June 23,  4:00 PM E	Medellin, Antioquia	Main Event
+1	ECF 21	Saturday, June 23,  5:00 PM E	Woodside, New York	Main Card
+2	Ground Force Fights 4	Saturday, June 23,  6:00 PM E	Batavia, New York	Main Card Title Fight
+3	A Dragon's Tale 5	Saturday, June 23,  6:00 PM E	Lindale, Texas	Main Card
+4	Destiny MMA	Saturday, June 23,  6:00 PM E	Honolulu, Hawaii	Main Event
+5	WFC 89	Saturday, June 23,  6:00 PM E	Reno, Nevada	Main Card
+6	Rage In The Cage OKC 59	Saturday, June 23,  6:00 PM E	Oklahoma City, Oklahoma	Main Card
+7	Conquest of the Cage	Saturday, June 23,  6:00 PM E	Moses Lake, Washington	
+8	Combat Night 92	Saturday, June 23,  6:00 PM E	Fort Lauderdale, Florida	
+9	Conquest Promotions	Saturday, June 23,  6:30 PM E	Stillwater, Oklahoma	Main Card
+10	Shogun Fights 19	Saturday, June 23,  6:30 PM E	Oxon Hill, Maryland	Main Event Title Fight
+11	Spartyka Fight League 34	Saturday, June 23,  7:00 PM E	Norfolk, Virginia	Main Card Title Fight
+12	Cage of Honor 73	Saturday, June 23,  7:00 PM E	Cape Girardeau, Missouri	Main Event Title Fight
+13	Gladius Fights 32	Saturday, June 23,  7:00 PM E	Endicott, New York	Main Event Title Fight
+14	Adrenaline Fight League	Saturday, June 23,  7:00 PM E	Brookline, Missouri	
+15	MTF 3	Saturday, June 23,  7:00 PM E	Logan, Utah	Main Card
+16	Hardrock MMA 99	Saturday, June 23,  7:30 PM E	Covington, Kentucky	Main Event Title Fight
+17	BTC 3	Saturday, June 23,  8:00 PM E	Burlington, Ontario, Canada	Main Event Title Fight
+18	Euro-asian World Cup	Sunday, June 24, 12:00 AM E	Anapa, Russia	
+19	Clan Wars 32	Sunday, June 24, 10:00 AM E	Belfast, Northern Ireland	Main Event
+20	Lubart's Warriors 2	Sunday, June 24,  2:00 PM E	Lutsk, Ukraine	
+21	DW's Contender Series 2018	Tuesday, June 26,  8:00 PM E	Las Vegas, Nevada	Main Event
+22	XFN	Thursday, June 28, 10:00 AM E	Prague, Czech Republic	Main Event
+23	BAMMA Fight Night London	Thursday, June 28, 12:00 PM E	London, England	Main Event Title Fight
+24	Maverick MMA 8	Thursday, June 28,  6:00 PM E	Allentown, Pennsylvania	
+25	ONE Championship	Friday, June 29,  7:00 AM E	Yangon, Myanmar	La Nsang vs. Hasegawa
+26	Xtreme Fight Night 349	Friday, June 29,  6:00 PM E	Tulsa, Oklahoma	
+27	Combat Zone 66	Friday, June 29,  7:00 PM E	Manchester, New Hampshire	Main Card
+28	Shooto Brasil 85	Friday, June 29,  7:00 PM E	Rio de Janeiro, Rio de Janeiro, Brazil	Main Event Title Fight
+29	SteelFist Fight Night	Friday, June 29,  8:00 PM E	Salt Lake City, Utah	Main Event Title Fight
+30	DCS 43	Friday, June 29,  8:00 PM E	Norfolk, Nebraska	Main Card
+31	Titan FC 50	Friday, June 29,  8:00 PM E	Fort Lauderdale, Florida	Main Event Title Fight
+32	Bellator 201	Friday, June 29,  9:00 PM E	Temecula, California	Macfarlane vs. Lara
+33	LFA 44	Friday, June 29,  9:00 PM E	Phoenix, Arizona	Frincu vs. Aguilera
+34	DEEP 84 Impact	Saturday, June 30, 12:00 AM E	Tokyo, Japan	Main Card
+35	United Combat League	Saturday, June 30, 12:00 AM E	Leavenworth, Kansas	Main Card Title Fight
+36	Champ MMA	Saturday, June 30, 12:00 AM E	República Dominicana	Main Event
+37	MMAA Arena Cup 43	Saturday, June 30,  4:00 AM E	Prague, Czech Republic	
+38	Slovenska Liga Amateruv 16	Saturday, June 30,  6:00 AM E	Dunajská Streda, Slovakia	
+39	Fight Nights Global	Saturday, June 30,  8:00 AM E	Bozhou , China	Main Event
+40	Serir MMA 4	Saturday, June 30,  9:00 AM E	Derbent, Dagestan, Russia	Main Event
+41	PCF 18	Saturday, June 30, 10:00 AM E	Spišská Nová Ves, Slovakia	Main Event
+42	Corinthian Pro MMA 2	Saturday, June 30, 12:30 PM E	Loutraki, Greece	Main Event
+43	100% Fight 36	Saturday, June 30,  1:00 PM E	Paris, France	Main Event Title Fight
+44	GMC 15	Saturday, June 30,  1:00 PM E	Neu-Ulm, Germany	Main Event Title Fight
+45	Vote MMA 7	Saturday, June 30,  1:00 PM E	Ibbenbüren, Germany	Main Card
+46	AFT 14	Saturday, June 30,  4:00 PM E	Curitiba, Parana, Brazil	Main Card
+47	SCL	Saturday, June 30,  5:00 PM E	Denver, Colorado	
+48	Batalha MMA 13	Saturday, June 30,  5:00 PM E	Osasco, Sao Paulo, Brazil	Main Event Title Fight
+49	KOP 62	Saturday, June 30,  6:00 PM E	Grand Rapids, Michigan	Main Event Title Fight
+50	Full Contact Promotions	Saturday, June 30,  6:00 PM E	Rochester, New York	
+51	Hex Fight Series 14	Saturday, June 30,  6:00 PM E	Melbourne, Australia	Main Card
+52	Tuff-N-Uff	Saturday, June 30,  6:00 PM E	Las Vegas, Nevada	Main Card Title Fight
+53	Warrior Games	Saturday, June 30,  6:30 PM E	Ashland, Wisconsin	Main Event Title Fight
+54	Honor FC 5	Saturday, June 30,  7:00 PM E	Larain, Ohio	Main Card Title Fight
+55	Jackson's MMA Series 25	Saturday, June 30,  7:00 PM E	Santa Fe, New Mexico	
+56	Dead Serious 30	Saturday, June 30,  7:00 PM E	Atlantic City, New Jersey	
+57	Colosseum Combat 45	Saturday, June 30,  7:00 PM E	Kokomo, Indiana	Main Card
+58	Whitehall Athletic Club	Saturday, June 30,  7:00 PM E	Whitehall, New York	Main Event Title Fight
+59	Cage Titans 39	Saturday, June 30,  7:00 PM E	Kingston, Massachusetts	Main Event
+60	Extreme Challenge 237	Saturday, June 30,  7:30 PM E	Clinton, Iowa	Main Card
+61	BAC	Saturday, June 30,  8:00 PM E	Napa, California	
+62	Torneo Samurai 2	Saturday, June 30,  8:00 PM E	Trujillo, Peru	
+63	DTC Fights Amateur 5	Saturday, June 30,  9:00 PM E	Pueblo Libre, Lima Peru	
+64	Southwest Brawl 8	Saturday, June 30, 10:00 PM E	Las Cruces, New Mexico	
+65	Shooto Torao 22	Sunday, July 01, 12:00 AM E	Yamaguchi, Japan	Main Card
+66	KROSSxOVER 3	Sunday, July 01, 12:00 AM E	Saitama, Japan	Main Card
+67	Pancrase 297	Sunday, July 01,  2:15 AM E	Tokyo, Japan	Main Card Title Fight
+68	Forza Fighting Championship 8	Sunday, July 01,  8:00 AM E	Dalkeith, Scotland	
+69	WCMMA 33	Sunday, July 01,  1:00 PM E	London, England	Main Event Title Fight
+70	Fusion Fight League	Tuesday, July 03,  6:00 PM E	Choteau, Montana	
+71	PFL 2018 #3	Thursday, July 05,  8:00 PM E	Washington D.C.	Shields vs. Cooper III
+72	TWC 7	Friday, July 06, 12:00 AM E	San Martin de Porras, Lima, Peru	Main Event
+73	Shoot Boxing Girl S-Cup	Friday, July 06,  5:00 AM E	Tokyo, Japan	
+74	Serbian Battle Championship 18	Friday, July 06, 10:00 AM E	Bačka Palanka, Serbia	Main Card
+75	TUF 27 Finale	Friday, July 06,  9:00 PM E	Last Vegas, Nevada	Tavares vs. Adesanya
+76	CXF 13	Friday, July 06, 10:30 PM E	Burbank, California	
+77	ONE Championship	Saturday, July 07,  7:00 AM E	Guangzhou, Guangdong, China	
+78	Battle Arena 51	Saturday, July 07, 10:00 AM E	Birmingham, England	
+79	Budo Fighting Championships 32	Saturday, July 07, 11:00 AM E	Swansea, Wales	
+80	Kingdom Professional Fight	Saturday, July 07, 12:00 PM E	Moscow, Russia	Main Card
+81	RFC Way of the Dragon 2	Saturday, July 07, 12:00 PM E	Taipei City, Taiwan	Preliminary Card
+82	FightStar Championship 15	Saturday, July 07,  1:00 PM E	London, England	
+83	ICE FC	Saturday, July 07,  1:00 PM E	Manchester, England	
+84	Mix Fight Events 38	Saturday, July 07,  1:00 PM E	Valencia, Spain	
+85	Evolution of Fighters 24	Saturday, July 07,  3:00 PM E	Indaiatuba, Sao Paulo, Brazil	
+86	RBFC 9	Saturday, July 07,  3:00 PM E	Rio de Janeiro, Rio de Janeiro, BrazilUsina de Campeões	
+87	NP Fight 9	Saturday, July 07,  4:00 PM E	Goiania, Goias, Brazil	Main Event Title Fight
+88	Kickdown 131	Saturday, July 07,  4:00 PM E	Aurora, Colorado	
+89	Endo Athletics Fight Night 1	Saturday, July 07,  5:00 PM E	Crossville, Tennessee	Main Event Title Fight
+90	RFP Step to Top 6	Saturday, July 07,  6:00 PM E	Township Hoshcha, Rivne Oblast, Ukraine	
+91	UFC 226	Saturday, July 07, 10:00 PM E	Last Vegas, Nevada	Miocic vs. Cormier
+92	Lion Fighting Championships 16	Sunday, July 08, 10:00 AM E	Rochester, Kent, England	
+93	RBM 1	Sunday, July 08, 12:00 PM E	Moscow, Russia	Main Event Title Fight
+94	Gladiator CF 38	Sunday, July 08,  3:00 PM E	Curitiba, Parana, Brazil	
+95	Urban Fight Night 16	Sunday, July 08,  5:00 PM E		Main Card
+96	RCC 3	Monday, July 09,  2:00 PM E	Yekaterinburg, Russia	Main Event
+97	DW's Contender Series 2018	Tuesday, July 10,  8:00 PM E	Las Vegas, Nevada	Main Event
+98	ONE Championship	Friday, July 13,  7:00 AM E	Kuala Lumpur, Malaysia	
+99	Sarmata cup	Friday, July 13, 12:00 PM E	Voronezh, Russia	
+100	Triton Fights 8	Friday, July 13,  7:00 PM E	Westbury, New York	
+101	Bellator 202	Friday, July 13,  9:00 PM E	Thackerville, Oklahoma	Budd vs. Nogueira
+102	One Pride MMA Fight Night 20	Saturday, July 14,  3:00 AM E	Kelapa Gading, Jakarta Utara, Indonesia	
+103	Submissionism 3	Saturday, July 14, 12:00 PM E	Athens, Greece	
+104	WFCA 49	Saturday, July 14, 12:00 PM E	Grozny, Chechnya, Russia	Main Event
+105	Killacam Fight Night 14	Saturday, July 14,  1:00 PM E	Margate, Kent, England	
+106	Caged Steel FC 21	Saturday, July 14,  1:30 PM E	Doncaster, England	Main Event Title Fight
+107	Bellator 203	Saturday, July 14,  4:00 PM E	Rome, Italy	Freire vs. Weichel II
+108	Caged Warrior Championship 18	Saturday, July 14,  6:00 PM E	Houma, Louisiana	
+109	KOTC	Saturday, July 14,  6:00 PM E	Sloan, Iowa	Main Event
+110	AFC 1	Saturday, July 14,  6:00 PM E	Rainsville, Alabama	Main Card
+111	Fusion Fight League	Saturday, July 14,  6:00 PM E	Havre, Montana	
+112	The Redemption 13	Saturday, July 14,  6:00 PM E	Auburn, Washington	
+113	UFC FIght Night 133	Saturday, July 14,  7:00 PM E	Boise, Idaho	dos Santos vs. Ivanov
+114	XCP	Saturday, July 14,  7:00 PM E	Rutland, Vermont	Main Card
+115	Rivers Rumble MMA	Saturday, July 14,  7:00 PM E	Pittsburgh, Pennsylvania	
+116	Cage Wars 37	Saturday, July 14,  8:00 PM E	Schenectady, New York	Main Card Title Fight
+117	Batte Of Champions 005	Saturday, July 14,  8:00 PM E	Queretaro, Mexico	Main Card
+118	AFC 13	Saturday, July 14,  8:00 PM E	Ucayali, Peru	
+119	Shamrock FC 307	Saturday, July 14,  8:30 PM E	St. Charles, Missouri	
+120	Shooto	Sunday, July 15, 12:00 AM E	Tokyo, Japan	Main Card
+121	GRACHAN 35.5	Monday, July 16,  1:00 AM E	Yokosuka, Kanagawa, Japan	Main Card
+122	Eternal 35	Tuesday, July 17, 12:00 AM E	Gold Coast, Queensland	Main Card
+123	DW's Contender Series 2018	Tuesday, July 17,  8:00 PM E	Las Vegas, Nevada	Main Card
+124	FFC 33	Wednesday, July 18, 12:00 AM E	Surco, Lima, Peru	Main Event Title Fight
+125	PFL 2018 #4	Thursday, July 19,  8:00 PM E	Long Island, New York	
+126	Predator Cage	Friday, July 20,  7:00 PM E	El Carmen, San salvador de Jujuy, Argentina	Main Event
+127	MMA Pro League 1	Friday, July 20,  8:00 PM E	Atlantic City, New Jersey	
+128	LFA 45	Friday, July 20, 10:00 PM E	Cabazon, California	Silva vs. Barnes
+129	ACB 89	Saturday, July 21, 12:00 AM E	Limassol, Cyprus	Sarnavskiy vs. Batista
+130	KAISER. 1 GENESIS	Saturday, July 21,  3:00 AM E	Gumi, South Korea	Main Event
+131	Adrenalin	Saturday, July 21, 11:00 AM E	Swansea, Wales	
+132	M-1 Challenge 95	Saturday, July 21, 12:00 PM E	Nazran, Ingushetia, Russia	Main Card Title Fight
+133	Cage Warriors 95	Saturday, July 21,  1:00 PM E	London, England	Main Event Title Fight
+134	MTK MMA 3	Saturday, July 21,  1:00 PM E	Newcastle, England	
+135	Atlas Fights 33	Saturday, July 21,  6:00 PM E	Biloxi, Mississippi	
+136	KOTC	Saturday, July 21,  6:00 PM E	Ignacio, Colorado	Main Card Title Fight
+137	XKO 42	Saturday, July 21,  6:00 PM E	Dallas, Texas	
+138	CageSport 52	Saturday, July 21,  6:00 PM E	Tacoma, Washington	Main Card Title Fight
+139	Dragon House 29	Saturday, July 21,  7:00 PM E	San Francisco, California	
+140	Whitehall Athletic Club	Saturday, July 21,  7:00 PM E	Whitehall, New York	
+141	XFFC 18	Saturday, July 21,  8:00 PM E	Penticton, Alberta, Canada	Main Card Title Fight
+142	Invicta FC 30	Saturday, July 21,  8:00 PM E	Kansas City, Missouri	Yu vs. Grusander
+143	Combat Challenge 22	Sunday, July 22, 10:00 AM E	Bradford, Yorkshire, England	
+144	UFC UFN 134	Sunday, July 22, 12:00 PM E	Hamburg, Germany	Oezdemir vs. Rua
+145	FFP 3	Sunday, July 22, 12:00 PM E	Moscow, Russia	
+146	Berkut Young Eagles 5	Sunday, July 22, 12:00 PM E	Tolstoy-Yurt, Chechen Republic, Russia	Fernandes vs. Merezhko
+147	FCF-MMA	Sunday, July 22,  8:00 PM E	Taganrog, Russia	
+148	Angel's Fighting 7	Monday, July 23,  3:00 AM E	Seoul, South Korea	
+149	DW's Contender Series 2018	Tuesday, July 24,  8:00 PM E	Las Vegas, Nevada	Main Card
+150	ONE Championship	Friday, July 27,  7:00 AM E	Manila, Philippines	
+151	Rite of Passage 4	Friday, July 27,  6:00 PM E	Bossier City, Louisiana	
+152	Solid as a Rock FC 17	Friday, July 27,  6:00 PM E	Fairbanks, Alaska	
+153	LFA 46	Friday, July 27, 10:00 PM E	Newport News, Virginia	Nakashima vs. Stewart
+154	Road FC 48	Saturday, July 28,  3:00 AM E	Wonju, South Korea	Main Event Title Fight
+155	XFC 36	Saturday, July 28,  4:00 AM E	Mansfield, Queensland, Australia	Main Event Title Fight
+156	Oktagon 7	Saturday, July 28, 10:00 AM E	Prague, Czech Republic	
+157	ACB 90	Saturday, July 28, 12:00 PM E	Kazan, Russia	
+158	Almighty Fighting Championship 9	Saturday, July 28, 12:00 PM E	York, England	
+159	KOTC	Saturday, July 28,  6:00 PM E	Wyandotte, Michigan	
+160	Pure FC 9	Saturday, July 28,  6:00 PM E	Milwaukee, Wisconsin	Main Card
+161	Cage Championships 60	Saturday, July 28,  6:00 PM E	Sullivan, Missouri	
+162	KC Fighting Alliance 29	Saturday, July 28,  6:00 PM E	Independence, Missouri	Main Card Title Fight
+163	Real MMA 18	Saturday, July 28,  6:00 PM E	North Las Vegas, Nevada	
+164	Iron Boy MMA 12	Saturday, July 28,  6:00 PM E	Celebrity Theatre	Main Card
+165	SHP 50	Saturday, July 28,  6:00 PM E	Birmingham, Alabama	
+166	Ring of Combat 64	Saturday, July 28,  7:00 PM E	Philadelphia, Pennsylvania	
+167	Mr. Cage 35	Saturday, July 28,  7:00 PM E	Itacoatiara, Amazonas, Brazil	
+168	Walkout FC 11	Saturday, July 28,  7:00 PM E	Joplin, Missouri	Main Card Title Fight
+169	MTF 2	Saturday, July 28,  7:00 PM E	Laramie, Wyoming	Main Card
+170	Caged Thunder 4	Saturday, July 28,  7:00 PM E	Akron, Ohio	
+171	MFC 15	Saturday, July 28,  7:00 PM E	Santiago, Chile	Main Event
+172	305 Fights 3	Saturday, July 28,  7:00 PM E	Miami, Florida	
+173	UFC on FOX 30	Saturday, July 28,  8:00 PM E	Calgary, Alberta, Canada	Alvarez vs. Poirier II
+174	Rumble on the Water 4	Saturday, July 28, 10:00 PM E	Long Beach, California	
+175	RIZIN 11	Sunday, July 29, 12:00 AM E	Saitama, Japan	Horiguchi vs. Ogikubo II
+176	DFS 4	Sunday, July 29, 12:00 AM E	Kaspiysk, Russia	
+177	Berkut Young Eagles 6	Sunday, July 29, 12:00 PM E	TOLSTOY-YURT, CHECHEN REPUBLIC, RUSSIA	Capitulino vs. Tibilov
+178	DW's Contender Series 2018	Tuesday, July 31,  8:00 PM E	Las Vegas, Nevada	Main Card
+179	Phoenix 9	Thursday, August 02,  9:00 AM E	Dubai, United Arab Emirates	Main Card
+180	TKO Fight Night 1	Thursday, August 02,  6:00 PM E	Montreal, Quebec, Canada	Main Event Title Fight
+181	PFL 2018 #5	Thursday, August 02,  8:00 PM E	Long Island, New York	
+182	X-1 World Events 50	Friday, August 03,  6:00 PM E	Honolulu, Hawaii	
+183	Ultimate Blue Corner Battles	Friday, August 03,  6:00 PM E	Kansas City, Missouri	
+184	XFO 63	Saturday, August 04,  1:00 PM E	Island Lake, Illinois	
+185	Redneck Ruckus	Saturday, August 04,  3:00 PM E	Williamstown, Vermont	Main Card Title Fight
+186	URCC 34	Saturday, August 04,  6:00 PM E	Richmond, California	
+187	X-1 World Events 50	Saturday, August 04,  6:00 PM E	Honolulu, Hawaii	Main Card Title Fight
+188	Golden Fights	Saturday, August 04,  6:00 PM E	Grand Junction, Colorado	
+189	MTF 4	Saturday, August 04,  7:00 PM E	Pocatello, Idaho	Main Card
+190	UFC 227	Saturday, August 04,  8:00 PM E	Los Angeles, California	Dillashaw vs. Garbrandt
+191	Pancrase 298	Sunday, August 05,  3:15 AM E	Tokyo, Japan	Main Card
+192	Fighting NEXUS vol.14	Saturday, August 11, 12:00 AM E		Main Card
+193	Rebel FC 9	Saturday, August 11, 12:00 AM E	Beijing	Main Event
+194	One Pride MMA Fight Night 21	Saturday, August 11,  3:00 AM E	Kelapa Gading, Jakarta Utara, Indonesia	
+195	Citadel	Saturday, August 11, 12:00 PM E	Smolensk, Russia	
+196	Shock n' Awe Contenders 4	Saturday, August 11,  1:00 PM E	Portsmouth, England, UK	
+197	ACB 91	Saturday, August 11,  2:00 PM E	London, England	Strus vs. Duraev
+198	BCM Promotions	Saturday, August 11,  5:30 PM E	Mansfield, Ohio	
+199	RUF MMA 27	Saturday, August 11,  6:00 PM E	Tucson, Arizona	Main Card
+200	Ax Fighting 67	Saturday, August 11,  6:00 PM E	Lynnwood, Washington	
+201	Primal MMA	Saturday, August 11,  7:00 PM E	Atlantic City, New Jersey	
+202	Spartyka Fight League 35	Saturday, August 11,  7:00 PM E	Norfolk, Virginia	
+203	Hardrock MMA 100	Saturday, August 11,  7:30 PM E	Louisville, Kentucky	
+204	XFFC 19	Saturday, August 11,  8:00 PM E	Grand Prairie, Alberta, Canada	Main Card
+205	Premier MMA Championship	Saturday, August 11,  8:00 PM E	Covington, Kentucky	Main Event
+206	RIZIN 12	Sunday, August 12, 12:00 AM E	Nagoya, Japan	Yachi vs. Carvalho
+207	PFL 2018 #6	Thursday, August 16,  8:00 PM E	Atlantic City, New Jersey	
+208	Fight Nights Global 91	Friday, August 17, 12:00 AM E	Sochi, Russia	
+209	Bellator 204	Friday, August 17,  9:00 PM E	Sioux Falls, South Dakota	Caldwell vs. Lahat
+210	Babilon MMA 5	Saturday, August 18, 10:00 AM E	Międzyzdroje, Poland	
+211	WFCA 50	Saturday, August 18, 12:00 PM E	Moscow, Russia	Main Event
+212	MMA Total Combat 77	Saturday, August 18,  1:00 PM E	Spennymoor, County Durham, England	
+213	Cage Legacy 9	Saturday, August 18,  1:00 PM E	Kildare, Ireland	
+214	Dojo Fights 4	Saturday, August 18,  5:00 PM E	Magdalena del Mar, Peru	
+215	Pyramid Fights 8	Saturday, August 18,  6:00 PM E	Batesville, Arkansas	Main Event
+216	Honor FC 6	Saturday, August 18,  6:00 PM E	Cleveland, Ohio	
+217	Legion Combat 28	Saturday, August 18,  6:00 PM E	Mitchell, Nebraska	
+218	WFF 39	Saturday, August 18,  6:00 PM E	Chandler, Arizona	
+219	Shamrock FC 308	Saturday, August 18,  7:30 PM E	Kansas City, Missouri	
+220	KNOCK OUT SUMMER FES.2018	Sunday, August 19,  3:00 AM E	Ota, Tokyo, Japan	
+221	Dagestan Open Cup 2018	Sunday, August 19,  8:00 PM E	Dagestan, Russia	
+222	Caged Aggression	Friday, August 24,  6:00 PM E	Burlington, Iowa	
+223	Stellar Fights 38	Saturday, August 25, 12:00 AM E	Hockessin, Delaware	Main Card Title Fight
+224	ACB 92	Saturday, August 25, 12:00 PM E	Sweden	
+225	Caged Aggression	Saturday, August 25,  6:00 PM E	Burlington, Iowa	
+226	KOTC	Saturday, August 25,  6:00 PM E	Reno, Nevada	
+227	Nemesis Fighting Alliance	Saturday, August 25,  6:00 PM E	Arnold, Missouri	
+228	HD MMA 13	Saturday, August 25,  7:00 PM E	Shawnee, Oklahoma	
+229	UFC UFN 135	Saturday, August 25,  9:00 PM E	Lincoln, Nebraska	Gaethje vs. Iaquinta
+230	KOTC	Saturday, August 25, 10:00 PM E	Reno, Nevada	
+231	PFL 2018 #7	Thursday, August 30,  8:00 PM E	Atlantic City, New Jersey	
+232	Front Street Fights 18	Friday, August 31,  6:00 PM E	Boise, Idaho	
+233	Carelia Fight 14	Saturday, September 01,  6:00 AM E	Imatra, South Karelia, Finland	
+234	MFC 7	Saturday, September 01, 10:00 AM E	Podgorica, Montenegro	
+235	Evolution Of Combat	Saturday, September 01, 12:00 PM E	Morecambe, England	
+236	Rise of Champions 6	Saturday, September 01, 12:00 PM E	Brentwood, England	
+237	Cage Warriors 96	Saturday, September 01,  1:00 PM E	Liverpool, England	Main Event Title Fight
+238	Integra FC 10	Saturday, September 01,  1:00 PM E	Saarbrücken, Germany	
+239	GMC 16	Saturday, September 01,  1:00 PM E	Cologne, Germany	
+240	Hardrock MMA 101	Saturday, September 01,  7:30 PM E	Dayton, Ohio	
+241	Fight Card Entertainment	Sunday, September 02,  6:00 PM E	Rosemont, Illinois	
+242	St. Petersburg Open Cup 2018	Sunday, September 02,  8:00 PM E	St. Petersburg, Russia	
+243	Shamrock FC 309	Friday, September 07,  7:30 PM E	St. Louis, Missouri	
+244	RBM 2	Saturday, September 08, 12:00 AM E	St. Petersburg, Russia	
+245	One Pride MMA Fight Night 22	Saturday, September 08,  3:00 AM E	Kelapa Gading, Jakarta Utara, Indonesia	
+246	Wieczór Walk R8 3	Saturday, September 08, 10:00 AM E	Kraków, Poland	
+247	Spartan Fight 10	Saturday, September 08, 11:00 AM E	Rzeszów, Poland	
+248	Cage 44	Saturday, September 08, 11:00 AM E	Helsinki, Finland	
+249	ACB 93	Saturday, September 08, 12:00 PM E	Krasnodar, Russia	
+250	UCMMA 56	Saturday, September 08, 12:30 PM E	London, England	
+251	3 River Throwdown 14	Saturday, September 08,  6:00 PM E	Onalaska, Wisconsin	
+252	KOTC	Saturday, September 08,  6:00 PM E	Ignacio, Colorado	
+253	KOTC	Saturday, September 08,  6:00 PM E	Lincoln City, Oregon	
+254	NEF 35	Saturday, September 08,  7:00 PM E	Bangor, Maine	
+255	NYFE 16	Saturday, September 08,  7:00 PM E	Jamaica, New York	
+256	UFC 228	Saturday, September 08, 10:00 PM E	Las Vegas, Nevada	Rodriguez vs. Magomedsharipov
+257	Fight Nights Global 92	Sunday, September 09, 12:00 AM E	Dushanbe, Tayikistan	
+258	Battle on Volga 5	Sunday, September 09, 12:00 AM E	Samara, Russia	Main Event Title Fight
+259	Young Blood Night Vol. 11	Saturday, September 15, 12:00 PM E	Munich, Germany	
+260	UFC UFN	Saturday, September 15, 12:00 PM E	Moscow, Russia	Hunt vs. Oleynik
+261	Golden Ticket Fight Promotions	Saturday, September 15,  1:00 PM E	Wolverhampton, England	
+262	Inner Strength MMA	Saturday, September 15,  6:00 PM E	Superior, Wisconsin	
+263	PFO	Saturday, September 15,  6:00 PM E	Gladwin, Michigan	Main Card Title Fight
+264	Dominate FC	Saturday, September 15,  6:00 PM E	Auburn, Washington	Main Card Title Fight
+265	NMEF	Saturday, September 15,  6:00 PM E	Colorado Springs, Colorado	
+266	Cage Wars 38	Saturday, September 15,  7:00 PM E	Schenectady, New York	
+267	Hardrock MMA 102	Saturday, September 15,  7:30 PM E	Shepherdsville, Kentucky	
+268	Clash of the Titans 3	Saturday, September 15, 10:00 PM E	Alamogordo, New Mexico	
+269	GCF 45	Wednesday, September 19, 10:00 AM E	Olomouc, Czech Republic	
+270	Fight Nights Global 93	Friday, September 21, 12:00 AM E	Dublin , Ireland	
+271	North Star Combat 9	Friday, September 21,  7:30 PM E	Walker, Minnesota	
+272	TKO 44	Friday, September 21,  9:00 PM E	Québec City, Québec, Canada	
+273	IRFA 15	Saturday, September 22, 12:00 PM E	Sweden	
+274	Gaudi Fight Club	Saturday, September 22, 12:00 PM E	Kirov, Russia	
+275	Chosen Few FC 15	Saturday, September 22,  6:00 PM E	Madison, Wisconsin	
+276	Aggressive Combat 19	Saturday, September 22,  7:00 PM E	White Plains, New York	
+277	Full Contact Promotions	Saturday, September 22,  7:00 PM E		
+278	Shooto	Sunday, September 23, 12:00 AM E	Tokyo, Japan	
+279	Fight Nights Global 94	Friday, September 28, 12:00 AM E	Makhachkala, Dagestan	
+280	Bellator	Saturday, September 29, 12:00 AM E	San Jose, California	Mousasi vs. MacDonald
+281	We Love MMA 41	Saturday, September 29,  1:00 PM E	Stuttgart, Germany	
+282	Contenders Norwich 24	Saturday, September 29,  1:00 PM E	Norwich, Norfolk, England	
+283	Contenders Norwich 25	Saturday, September 29,  1:00 PM E	Norwich, Norfolk, England	
+284	British Challenge MMA 22	Saturday, September 29,  1:00 PM E	Colchester, Essex, England	
+285	Vision MMA Combat UK 3	Saturday, September 29,  1:00 PM E	Carlisle, England	
+286	AFL 17	Saturday, September 29,  1:00 PM E	Valladolid, Spain	
+287	RIZIN 13	Sunday, September 30, 12:00 AM E	Saitama, Japan	
+288	Cup Of Russia 2018	Sunday, September 30,  8:00 PM E	Sochi, Russia	
+289	Fight Nights Global 95	Thursday, October 04, 12:00 AM E	St. Petersburg, Russia	
+290	WCMMA 34	Friday, October 05,  1:00 PM E	London, England	
+291	PFL 2018 #8	Friday, October 05,  8:00 PM E		
+292	One Pride MMA Fight Night 23	Saturday, October 06,  3:00 AM E	Kelapa Gading, Jakarta Utara, Indonesia	
+293	XFN Plzeň	Saturday, October 06, 10:00 AM E	Plzeň, Czech Republic	
+294	KSW 45	Saturday, October 06, 10:00 AM E	London, England	
+295	FG Fight Night 22	Saturday, October 06, 12:00 PM E	Kruså, Denmark	
+296	MMA Berlin Tournament 56	Saturday, October 06,  1:00 PM E	Berlin, Germany	
+297	Strength & Honour Championship 14	Saturday, October 06,  1:00 PM E	Dessel, Belgium	
+298	UFC 229	Saturday, October 06, 10:00 PM E	Las Vegas, Nevada	
+299	Lviv Open Cup 2018	Sunday, October 07,  1:00 PM E	Lviv, Ukraine	Main Card
+300	MTK MMA 4	Saturday, October 13,  1:00 PM E	Liverpool, England	
+301	Cage Legacy 10	Saturday, October 13,  1:00 PM E	Tallaght, Ireland	
+302	PFL 2018 #9	Saturday, October 13,  8:00 PM E		
+303	Thunderstrike Fight League 15	Saturday, October 20, 10:00 AM E	Lublin, Poland	Main Event Title Fight
+304	Last Man Standing 7	Saturday, October 20,  1:00 PM E	Newton Aycliffe, England	
+305	Shock n' Awe 28	Saturday, October 20,  1:00 PM E	Portsmouth, England, UK	
+306	PFL 2018 #10	Saturday, October 20,  8:00 PM E		
+307	Fight Nights Global 96	Saturday, October 27, 12:00 AM E	Riyadh, Saudi Arabia	
+308	Fusion FC 28	Saturday, October 27,  1:00 PM E	Surrey, England, UK	
+309	UFC UFN	Saturday, October 27, 10:00 PM E	Moncton, New Brunswick, Canada	
+310	XFC 37	Friday, November 02,  7:00 PM E	Mansfield, Queensland, Australia	
+311	One Pride MMA Fight Night 24	Saturday, November 03,  3:00 AM E	Kelapa Gading, Jakarta Utara, Indonesia	
+312	PLMMA 76	Saturday, November 03, 10:00 AM E	Wilanów, Poland	Main Card Title Fight
+313	Budo Fighting Championships	Saturday, November 03, 11:00 AM E	Swansea, Wales	
+314	UFC 230	Saturday, November 03, 10:00 PM E	New York City, New York	
+315	XFN	Friday, November 09, 10:00 AM E	Czech Republic	
+316	FNF 16	Saturday, November 10, 12:00 PM E	Karkkila, Finland	
+317	UCMMA 57	Saturday, November 10, 12:30 PM E	London, England	
+318	MMA Total Combat 78	Saturday, November 10,  1:00 PM E	Spennymoor, County Durham, England	
+319	Integra FC 11	Saturday, November 10,  1:00 PM E	Wittlich, Germany	
+320	Atlas MMA 4	Saturday, November 10,  1:00 PM E	Netherlands	
+321	UFC UFN	Saturday, November 10, 10:00 PM E	Denver, Colorado	
+322	WCSA Combat Ring 27	Friday, November 16, 12:00 AM E	Magnitogorsk, Russia	
+323	Shooto	Saturday, November 17, 12:00 AM E	Tokyo, Japan	
+324	Fight Nights Global 97	Saturday, November 17, 12:00 AM E	Sao Paolo, Brazil	
+325	Clan Wars 33	Saturday, November 17, 10:00 AM E	Belfast, Northern Ireland	
+326	Budo Fighting Championships	Saturday, November 17, 11:00 AM E	Grangemouth, Scotland	
+327	Raged UK 9	Saturday, November 17,  1:00 PM E	Swindon, England	
+328	Cage Wars 39	Saturday, November 17,  7:00 PM E	Schenectady, New York	
+329	All Russian MMA Championship 2018	Sunday, November 18,  8:00 PM E	Moscow, Russia	
+330	Generations of Combat FC 4	Saturday, November 24, 12:00 PM E	Sunderland, England	
+331	We Love MMA 43	Saturday, November 24,  1:00 PM E	Hamburg, Germany	
+332	Contenders Norwich 26	Saturday, November 24,  1:00 PM E	Norwich, Norfolk, England	
+333	MTK MMA 5	Sunday, November 25,  1:00 PM E	Newcastle, England	
+334	Shooto	Saturday, December 01, 12:00 AM E	Tokyo, Japan	
+335	One Pride MMA Fight Night 25	Saturday, December 01,  3:00 AM E	Kelapa Gading, Jakarta Utara, Indonesia	
+336	Superior Challenge 18	Saturday, December 01,  1:00 PM E	Stockholm, Sweden	
+337	British Challenge MMA 23	Saturday, December 01,  1:00 PM E	Colchester, Essex, England	
+338	Austrian FC 8	Saturday, December 01,  1:00 PM E	Vienna, Austria	
+339	IRFA 16	Saturday, December 08, 12:00 PM E	Sweden	
+340	WCMMA 35	Saturday, December 08,  1:00 PM E	London, England	
+341	Shock n' Awe Contenders 5	Saturday, December 08,  1:00 PM E	Portsmouth, England, UK	
+342	We Love MMA 45	Saturday, December 08,  1:00 PM E	Berlin, Germany	
+343	Mannheimer Hafenkeilerei 7	Saturday, December 08,  1:00 PM E	Mannheim, Germany	
+344	Fight Nights Global 99	Friday, December 14, 12:00 AM E	Moscow, Russia	
+345	MMA Berlin Tournament 57	Saturday, December 15,  1:00 PM E	Berlin, Germany	
+346	WCSA Combat Ring 28	Friday, December 21, 12:00 AM E	Ufa, Russia	
+347	SHOOTO KINGS 7	Saturday, December 22,  1:00 PM E	Reutlingen, Germany	
+348	Fight Nights Global 100	Friday, December 28, 12:00 AM E	Miami, Florida	
+349	UFC 232	Saturday, December 29, 10:00 PM E	Last Vegas, Nevada	
+350	RIZIN 14	Monday, December 31, 12:00 AM E	Saitama, Japan	
+351	PFL 2018 #11	Monday, December 31,  8:00 PM E		
+352	We Love MMA 46	Saturday, February 02,  1:00 PM E	Hanover, Germany	

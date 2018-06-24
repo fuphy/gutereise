@@ -128,7 +128,7 @@ for i in range(1, 8):
                             '09': 'September', '10': 'October', '11': 'November', '12': 'December'})
     print(newDf)
     xlsDf = xlsDf.append(newDf, ignore_index = True)
-    sleep(300)
+    sleep(500)
 
 c_date = str(datetime.date.today())
 c_year, c_month, c_day = date_splitter(c_date)

@@ -121,7 +121,7 @@ for i in range(1, 8):
     newDf.drop(newDf.columns[[0, 1]], axis = 1, inplace = True)
     print(newDf)
     xlsDf = xlsDf.append(newDf, ignore_index = True)
-    sleep(60)
+    sleep(150)
 
 c_date = str(datetime.date.today())
 c_year, c_month, c_day = date_splitter(c_date)
